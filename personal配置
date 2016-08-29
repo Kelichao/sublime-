@@ -1,0 +1,79 @@
+
+/*debug：boolean。如果为true，SublimeLinter会将检查结果打印到Sublime的控制台中。默认为false。
+* 
+* lint mode：string。设置当前lint的模式。可用的值有background、load/save、save only和manual。默认为background。
+* 
+* path：array。设置额外的路径用于搜索可执行文件。例如，设置nodejs的位置。
+* 
+* show_errors_on_save：boolean。当你保存文件的时候会弹出一个显示检查结果的快速面板。默认为false。
+* 
+* linters：object。分别设置每个linter插件。
+* 
+* @disable：boolean。开启或者关闭当前的linter。
+* 
+* args：array。设置linter的可选参数。
+* 
+* excludes：array。指定linter需要忽略的目录。
+*/
+
+{
+    "user": {
+        "debug": true, 
+        "delay": 10,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "jshint_options": {
+            "curly": true,
+            "devel": true,
+            "eqeqeq": true,
+            "evil": true,
+        },
+        "lint_mode": "background",
+        "linters": {
+            "csslint": {
+                "@disable": false,
+                "args": [],
+                "errors": "",
+                "excludes": [],
+                "ignore": "",
+                "warnings": ""
+            },
+            "jshint": {
+                "@disable": false,
+                "args": ["--config",   "C:\\Users\\Administrator\\Desktop\\aaa.json"],
+                "excludes": []
+            }
+        },
+        "mark_style": "outline",
+        "no_column_highlights_line": false,
+        "passive_warnings": false,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": true,
+        "show_marks_in_minimap": true,
+        "sublimelinter": "save-only",
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "javascript (babel)": "javascript",
+            "magicpython": "python",
+            "php": "html",
+            "python django": "python",
+            "pythonimproved": "python"
+        },
+        "warning_color": "DDB700",
+        "wrap_find": true
+    }
+}

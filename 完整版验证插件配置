@@ -1,0 +1,111 @@
+{ 
+  //增强参数 -- 本类参数设为true，JSHint会产生更多告警。 
+  "bitwise"	: false, //禁用位运算符 
+  "camelcase"	: true, //使用驼峰命名(camelCase)或全大写下划线命名(UPPER_CASE) 
+  "curly"	: true, //表达式都需要大括号{} 
+  //"enforceall"	: false, 
+  "eqeqeq"	: false, //强等于，使用===和!==替代==和!= 
+  //"es3"	: false, 
+  //"es5"	: false, 
+  //"esversion"	: false, 
+  "forin"	: false, //for in hasOwnPropery检查 
+  "freeze"	: false, //禁止复写原生对象(如Array, Date)的原型 
+  //"funcscope"	: false, //在控制体内定义变量而在外部使用 
+  //"futurehostile"	: false, 
+  "globals"	: { //未定义全局变量的白名单 
+      "grunt"	: true, 
+      "module"	: true, 
+      "window"	: true, 
+      "jQuery"	: true, 
+      "$"	: true, 
+      "global"	: true, 
+      "document"	: true, 
+      "console"	: true, 
+      "setTimeout"	: true, 
+      "setInterval"	: true, 
+      "external"	: true, 
+      "seajs"	: true, 
+      "TA"	: true, 
+      "_"	: true, 
+      "UE"	: true, 
+      "SNS"	: true, 
+      "jstime" : true, 
+      "WdatePicker" : true, 
+      "QRCode" : true, 
+      "des" : true, 
+      "JpjlModel" : true 
+  }, 
+  //"immed"	: false, //匿名函数调用方式 
+  //"indent"	: 4, //代码缩进宽度（空格数） 
+  //"iterator"	: false, //允许iterator 
+  "latedef"	: "nofunc", //禁止定义之前使用变量 
+  "maxcomplexity"	: false, //函数的最大复杂度 
+  "maxdepth"	: 10, //嵌套层级 
+  "maxerr"	: 100, //JSHint中断扫描前允许的最大错误数 
+  "maxlen"	: 200, //每行最大字符数 
+  "maxparams"	: 5, //函数最大参数数量 
+  "maxstatements"	: false, //函数中最大语句数 
+  "newcap"	: true, //构造函数名首字母必须大写 
+  "noarg"	: true, //禁止使用arguments.caller和arguments.callee 
+  "nocomma"	: false, //禁止使用逗号运算符 
+  //"noempty"	: false, //禁止空语句块 
+  "nonbsp"	: false, //禁止空格 
+  "nonew"	: false, //禁止直接new 一个构造函数，而不赋值给一个变量 
+  "notypeof"	: true, //检查无效的 typeof 操作符值 
+  "predef"	: false, 
+  //"quotmark"	: "single", //只能使用单引号 
+  //"shadow"	: false, //允许变量shadow 
+  "singleGroups"	: false, 
+  "strict"	: false, //强制使用ES5的严格模式 
+  "undef"	: true, //禁止使用不在全局变量列表中的未定义的变量 
+  "unused"	: "vars", //禁止使用未通过var声明的变量 
+  "varstmt"	: false, //禁止variablestatements 
+
+  //松弛参数 -- 本类参数设为true，JSHint会产生更少告警。 
+  "asi"	: false, //值为true时，忽略检查没有加分号(;)的行尾 
+  "boss"	: true, //在if，for，while语句中使用赋值 
+  "debug"	: true, //debugger语句 
+  "elision"	: false, //使用Es3阵列省略元素，或空元素 
+  "eqnull"	: true, //允许==null通常用来比较=== null || === undefined 
+  //"esnext"	: false, //ECMAScript 6规约 
+  "evil"	: true, //使用eval 
+  //"expr"	: false, //应该出现赋值或函数调用的地方使用表达式 
+  //"globalstrict"	: false, //全局严格模式 
+  "lastsemic"	: true, //单行控制块省略分号 
+  //"laxbreak"	: false, //不安全的行中断(与laxcomma配合使用) 
+  //"laxcomma"	: true, //逗号开头的编码样式 
+  "loopfunc"	: true, //循环中定义函数 
+  "moz"	: false, //使用Mozilla JavaScript的扩展 
+  "multistr"	: true, //多行字符串 
+  "noyield"	: false, //发生器中没有yield语句 
+  "plusplus"	: false, //禁止使用++和-- 
+  "proto"	: false, //__proto__ 
+  "scripturl"	: false, //抑制使用脚本的目标的链接 
+  "sub"	: true, //允许person['name'] 
+  "supernew"	: true, //允许new function() {...}和new Object; 
+  "validthis"	: true, //严格模式下在非构造函数中使用this 
+  "withstmt"	: false, 
+
+  //环境参数 -- 预定义一些全局变量，如node等 
+  "browser"	: true, 
+  "browserify"	: true, 
+  "couch"	: true, 
+  "devel"	: true, 
+  "dojo"	: true, 
+  "jasmine"	: true, 
+  "jquery"	: true, 
+  "mocha"	: true, 
+  "module"	: false, 
+  "mootools"	: true, 
+  "node"	: true, 
+  "nonstandard"	: true, 
+  "phantom"	: true, 
+  "prototypejs"	: true, 
+  "qunit"	: true, 
+  "rhino"	: true, 
+  "shelljs"	: true, 
+  "typed"	: true, 
+  "worker"	: true, 
+  "wsh"	: true, 
+  "yui"	: false 
+}

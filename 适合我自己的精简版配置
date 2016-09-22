@@ -27,7 +27,11 @@
 "maxerr": 100, //JSHint中断扫描前允许的最大错误数 
 //自己定义的全局变量 
 "globals":{ 
-"asbd":true 
+"asbd":true,
+"jQuery":true,
+"Zepto":true,
+"console":true,
+"$":true
 }, 
 "predef": ["window", "jQuery", "$","asbd"]//我自己看了下好像没什么用 
 }

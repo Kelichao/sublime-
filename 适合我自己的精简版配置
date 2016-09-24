@@ -31,7 +31,9 @@
 "jQuery":true,
 "Zepto":true,
 "console":true,
-"$":true
+"$":true,
+"window":true,
+"require":true
 }, 
 "predef": ["window", "jQuery", "$","asbd"]//我自己看了下好像没什么用 
 }

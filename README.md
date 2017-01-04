@@ -1,3 +1,4 @@
+![image](https://cloud.githubusercontent.com/assets/18028533/21637071/42cc6648-d2a0-11e6-8a68-3f7c7d4d010a.png)
 # 插件配置流程
 - [sublime稳定版本](附件是sublime-text 2000+版本我一直在使用的比较稳定的版本。)
 

@@ -7,6 +7,7 @@
 ![image](https://cloud.githubusercontent.com/assets/18028533/21636964/c04013aa-d29f-11e6-9cc3-070e04f6a5ef.png)
 
 > 并输入以下代码sublime-text3
+
 ```
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```

@@ -4,7 +4,7 @@
 ## 第一步：安装package control组件
 > 按Ctrl+\` 调出console
 
-![image](https://cloud.githubusercontent.com/assets/18028533/21636784/e73c9498-d29e-11e6-8a02-673ea3902352.png)
+![image](https://cloud.githubusercontent.com/assets/18028533/21636964/c04013aa-d29f-11e6-9cc3-070e04f6a5ef.png)
 
 > 并输入以下代码sublime-text3
 ```

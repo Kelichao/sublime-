@@ -45,3 +45,5 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 可以在Preferences -> Package Settings -> SublimeLinter -> settings - User 中进行配置
 (如果进去为空，可以在 settings - Default中拷贝,并将"default"键值名改为"user")
 ```
+- 代码内容为 ["user配置"](https://github.com/Kelichao/sublime-Text3/blob/master/personal%E9%85%8D%E7%BD%AE)
+- 需要注意的是jshint中args config的路径

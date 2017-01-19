@@ -24,4 +24,9 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 >  按下Ctrl+Shift+P调出命令面板
 > 插件安装以JSLint为例
 ![image](https://cloud.githubusercontent.com/assets/18028533/21636896/755b5cc8-d29f-11e6-8121-2b3bbd323303.png)
+> 稍等片刻就会出现安装包的输入框
 
+![image](https://cloud.githubusercontent.com/assets/18028533/22095411/708c9d36-de4f-11e6-80d7-40764ec09b21.png)
+- 第一步：首先需要安装的代码是SublimeLinter (可以在tools -> sublimeLinter中进行配置)
+- 第二步：再安装SublimeLinter-jshint
+- 第三步：全局安装jshint   `# $ npm install jshint`

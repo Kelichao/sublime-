@@ -24,6 +24,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 
 >  按下Ctrl+Shift+P调出命令面板
 > 插件安装以JSLint为例
+
 ![image](https://cloud.githubusercontent.com/assets/18028533/21636896/755b5cc8-d29f-11e6-8121-2b3bbd323303.png)
 > 稍等片刻就会出现安装包的输入框
 
@@ -41,5 +42,6 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 ```
 - 配置方式二
 ```
-可以在Preferences -> Package Settings -> SublimeLinter -> settings - User 中进行配置(进去为空，可以在 settings - Default中拷贝)
+可以在Preferences -> Package Settings -> SublimeLinter -> settings - User 中进行配置
+(如果进去为空，可以在 settings - Default中拷贝,并将"default"键值名改为"user")
 ```

@@ -28,6 +28,18 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 > 稍等片刻就会出现安装包的输入框
 
 ![image](https://cloud.githubusercontent.com/assets/18028533/22095411/708c9d36-de4f-11e6-80d7-40764ec09b21.png)
-- 第一步：首先需要安装的代码是SublimeLinter (可以在tools -> sublimeLinter中进行配置)
+- 第一步：首先需要安装的代码是SublimeLinter (可以在tools -> sublimeLinter -> open User Settings 中进行配置)
 - 第二步：再安装SublimeLinter-jshint
 - 第三步：全局安装jshint   `# $ npm install jshint`
+
+> 至此，代码检查已经是可以使用了。
+
+## 对语法检查个性化配置
+- 配置方式一
+```
+可以在tools -> sublimeLinter -> open User Settings 中进行配置
+```
+- 配置方式二
+```
+可以在Preferences -> Package Settings -> SublimeLinter -> settings - User 中进行配置(进去为空，可以在 settings - Default中拷贝)
+```

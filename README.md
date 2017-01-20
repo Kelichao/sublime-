@@ -47,3 +47,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 ```
 - 代码内容为 ["user配置"](https://github.com/Kelichao/sublime-Text3/blob/master/personal%E9%85%8D%E7%BD%AE)
 - 需要注意的是jshint中args config的路径
+
+# 对于无法安装全局jshint的环境
+![image](https://cloud.githubusercontent.com/assets/18028533/22133970/adb1ce16-defe-11e6-8581-8433611e4b03.png)
+- 先在c盘nodejs主目录下添加两个文件，jshint与jshint.cmd,然后再在node_modules中放入对应的包即可

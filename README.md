@@ -31,7 +31,7 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 ![image](https://cloud.githubusercontent.com/assets/18028533/22095411/708c9d36-de4f-11e6-80d7-40764ec09b21.png)
 - 第一步：首先需要安装的代码是SublimeLinter (可以在tools -> sublimeLinter -> open User Settings 中进行配置)
 - 第二步：再安装SublimeLinter-jshint
-- 第三步：全局安装jshint   `# $ npm install jshint`
+- 第三步：全局安装jshint   `# $ npm install jshint -g`
 
 > 至此，代码检查已经是可以使用了。
 
@@ -47,7 +47,20 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 ```
 - 代码内容为 ["user配置"](https://github.com/Kelichao/sublime-Text3/blob/master/personal%E9%85%8D%E7%BD%AE)
 - 需要注意的是jshint中args config的路径
+> 例如可以修改为：
 
+```js
+        "linters": {
+            "jshint": {
+                "@disable": false,
+                "args": [
+                    "--config",
+                    "D://文件安装包//sublime-text3-master//sublime-pojie//sublime-pojie//config.json"
+                ],
+                "excludes": []
+            }
+        },
+```
 # 对于无法安装全局jshint的环境
 ![image](https://cloud.githubusercontent.com/assets/18028533/22133970/adb1ce16-defe-11e6-8581-8433611e4b03.png)
 - 先在c盘nodejs主目录下添加两个文件，jshint与jshint.cmd,然后再在node_modules中放入对应的包即可

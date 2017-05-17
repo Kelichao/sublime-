@@ -20,20 +20,25 @@
 "latedef": "nofunc", //禁止定义之前使用变量 
 //增强参数 -- 本类参数设为true，JSHint会产生更多告警。 
 "eqeqeq":false, //强等于，使用===和!==替代==和!= 
-
 "forin": false, //for in hasOwnPropery检查 
 "freeze": false, //禁止复写原生对象(如Array, Date)的原型 
 "latedef": "nofunc", //禁止定义之前使用变量,跟下面的要一起用 
 "maxerr": 100, //JSHint中断扫描前允许的最大错误数 
 //自己定义的全局变量 
 "globals":{ 
-"asbd":true,
-"jQuery":true,
-"Zepto":true,
-"console":true,
-"$":true,
-"window":true,
-"require":true
-}, 
-"predef": ["window", "jQuery", "$","asbd"]//我自己看了下好像没什么用 
+	"jQuery":true, 
+	"Zepto":true, 
+	"console":true, 
+	"$":true, 
+	"asdf":true,
+	"window":true, 
+	"require":true,
+	"F7": true,
+	"app": true,
+	"i18next": true,
+	"setTimeout": true,
+	"setInterval": true,
+	"Template7": true,
+	"document": true
+	}
 }

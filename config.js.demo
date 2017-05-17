@@ -1,3 +1,4 @@
+```js
 { 
   //增强参数 -- 本类参数设为true，JSHint会产生更多告警。 
   "bitwise"	: false, //禁用位运算符 
@@ -109,3 +110,4 @@
   "wsh"	: true, 
   "yui"	: false 
 }
+```

@@ -26,6 +26,7 @@
 "maxerr": 100, //JSHint中断扫描前允许的最大错误数 
 //自己定义的全局变量 
 "globals":{ 
+	"kit": true,
 	"jQuery":true, 
 	"Zepto":true, 
 	"console":true, 
@@ -39,6 +40,9 @@
 	"setTimeout": true,
 	"setInterval": true,
 	"Template7": true,
-	"document": true
+	"document": true,
+	"keyPartCommon": true,
+	"util": true,
+	"mainView": true
 	}
 }
